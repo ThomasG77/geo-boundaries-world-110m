@@ -25,7 +25,389 @@
       "path": "data/afg.geojson",
       "format": "geojson",
       "mediatype": "application/json",
-      "bytes": 4769
+      "bytes": 4769,
+      "schema": {
+        "fields": [
+          {
+            "name": "abbrev", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "abbrev_len", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "adm0_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "adm0_a3_is", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "adm0_a3_un", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "adm0_a3_us", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "adm0_a3_wb", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "adm0_dif", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "admin", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "brk_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "brk_diff", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "brk_group", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "brk_name", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "continent", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "economy", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "featurecla", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "fips_10", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "formal_en", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "formal_fr", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "gdp_md_est", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "gdp_year", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "geou_dif", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "geounit", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "gu_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "homepart", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "income_grp", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "iso_a2", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "iso_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "iso_n3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "labelrank", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "lastcensus", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "level", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "long_len", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "mapcolor13", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "mapcolor7", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "mapcolor8", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "mapcolor9", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "name", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "name_alt", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "name_len", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "name_long", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "name_sort", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "note_adm0", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "note_brk", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "pop_est", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "pop_year", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "postal", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "region_un", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "region_wb", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "scalerank", 
+            "title": "", 
+            "type": "integer", 
+            "description": ""
+          }, 
+          {
+            "name": "sov_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "sovereignt", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "su_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "su_dif", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "subregion", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "subunit", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "tiny", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "type", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "un_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "wb_a2", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "wb_a3", 
+            "title": "", 
+            "type": "string", 
+            "description": ""
+          }, 
+          {
+            "name": "wikipedia", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }, 
+          {
+            "name": "woe_id", 
+            "title": "", 
+            "type": "number", 
+            "description": ""
+          }
+        ]
+      }
     },
     {
       "name": "ago",
@@ -1267,8 +1649,6 @@
       "bytes": 3378
     }
   ],
-  "bugs": {
-    "url": "https://github.com/datasets/geo-boundaries-world-110m/issues"
-  },
+  "bugs": "https://github.com/datasets/geo-boundaries-world-110m/issues",
   "homepage": "https://github.com/datasets/geo-boundaries-world-110m"
 }
