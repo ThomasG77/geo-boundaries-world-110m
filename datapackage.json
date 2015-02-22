@@ -9,7 +9,7 @@
   },
   "sources": [{
     "name": "Natural Earth",
-    "web": "http://www.naturalearthdata.com/downloads/10m-cultural-vectors/"
+    "web": "http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/"
   }],
   "keywords": [
     "geodata",
@@ -21,11 +21,1250 @@
   },
   "resources": [
     {
-      "name": "countries",
-      "path": "countries.geojson",
+      "name": "afg",
+      "path": "data/afg.geojson",
       "format": "geojson",
       "mediatype": "application/json",
-      "bytes": 689418
+      "bytes": 4769
+    },
+    {
+      "name": "ago",
+      "path": "data/ago.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5065
+    },
+    {
+      "name": "alb",
+      "path": "data/alb.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2646
+    },
+    {
+      "name": "are",
+      "path": "data/are.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2799
+    },
+    {
+      "name": "arg",
+      "path": "data/arg.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 7066
+    },
+    {
+      "name": "arm",
+      "path": "data/arm.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2599
+    },
+    {
+      "name": "ata",
+      "path": "data/ata.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 32006
+    },
+    {
+      "name": "atf",
+      "path": "data/atf.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2153
+    },
+    {
+      "name": "aus",
+      "path": "data/aus.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 12817
+    },
+    {
+      "name": "aut",
+      "path": "data/aut.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3339
+    },
+    {
+      "name": "aze",
+      "path": "data/aze.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3690
+    },
+    {
+      "name": "bdi",
+      "path": "data/bdi.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2286
+    },
+    {
+      "name": "bel",
+      "path": "data/bel.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2370
+    },
+    {
+      "name": "ben",
+      "path": "data/ben.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2757
+    },
+    {
+      "name": "bfa",
+      "path": "data/bfa.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3442
+    },
+    {
+      "name": "bgd",
+      "path": "data/bgd.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3321
+    },
+    {
+      "name": "bgr",
+      "path": "data/bgr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2962
+    },
+    {
+      "name": "bhs",
+      "path": "data/bhs.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2229
+    },
+    {
+      "name": "bih",
+      "path": "data/bih.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2655
+    },
+    {
+      "name": "blr",
+      "path": "data/blr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3656
+    },
+    {
+      "name": "blz",
+      "path": "data/blz.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2615
+    },
+    {
+      "name": "bol",
+      "path": "data/bol.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4499
+    },
+    {
+      "name": "bra",
+      "path": "data/bra.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 10861
+    },
+    {
+      "name": "brn",
+      "path": "data/brn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2084
+    },
+    {
+      "name": "btn",
+      "path": "data/btn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2274
+    },
+    {
+      "name": "bwa",
+      "path": "data/bwa.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3524
+    },
+    {
+      "name": "caf",
+      "path": "data/caf.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4502
+    },
+    {
+      "name": "can",
+      "path": "data/can.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 27823
+    },
+    {
+      "name": "che",
+      "path": "data/che.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2795
+    },
+    {
+      "name": "chl",
+      "path": "data/chl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 6681
+    },
+    {
+      "name": "chn",
+      "path": "data/chn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 12369
+    },
+    {
+      "name": "civ",
+      "path": "data/civ.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3774
+    },
+    {
+      "name": "cmr",
+      "path": "data/cmr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4338
+    },
+    {
+      "name": "cod",
+      "path": "data/cod.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 7228
+    },
+    {
+      "name": "cog",
+      "path": "data/cog.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3916
+    },
+    {
+      "name": "col",
+      "path": "data/col.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 6157
+    },
+    {
+      "name": "countries",
+      "path": "data/countries.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 710591
+    },
+    {
+      "name": "cri",
+      "path": "data/cri.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3359
+    },
+    {
+      "name": "cub",
+      "path": "data/cub.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3589
+    },
+    {
+      "name": "cyn",
+      "path": "data/cyn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2528
+    },
+    {
+      "name": "cyp",
+      "path": "data/cyp.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2366
+    },
+    {
+      "name": "cze",
+      "path": "data/cze.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3309
+    },
+    {
+      "name": "deu",
+      "path": "data/deu.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4248
+    },
+    {
+      "name": "dji",
+      "path": "data/dji.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2377
+    },
+    {
+      "name": "dnk",
+      "path": "data/dnk.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2777
+    },
+    {
+      "name": "dom",
+      "path": "data/dom.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2984
+    },
+    {
+      "name": "dza",
+      "path": "data/dza.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4424
+    },
+    {
+      "name": "ecu",
+      "path": "data/ecu.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3210
+    },
+    {
+      "name": "egy",
+      "path": "data/egy.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2718
+    },
+    {
+      "name": "eri",
+      "path": "data/eri.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2769
+    },
+    {
+      "name": "esh",
+      "path": "data/esh.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3063
+    },
+    {
+      "name": "esp",
+      "path": "data/esp.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3938
+    },
+    {
+      "name": "est",
+      "path": "data/est.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2477
+    },
+    {
+      "name": "eth",
+      "path": "data/eth.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3758
+    },
+    {
+      "name": "fin",
+      "path": "data/fin.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3366
+    },
+    {
+      "name": "fji",
+      "path": "data/fji.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2516
+    },
+    {
+      "name": "flk",
+      "path": "data/flk.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2033
+    },
+    {
+      "name": "fra",
+      "path": "data/fra.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4932
+    },
+    {
+      "name": "gab",
+      "path": "data/gab.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3034
+    },
+    {
+      "name": "gbr",
+      "path": "data/gbr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4274
+    },
+    {
+      "name": "geo",
+      "path": "data/geo.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2757
+    },
+    {
+      "name": "gha",
+      "path": "data/gha.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2775
+    },
+    {
+      "name": "gin",
+      "path": "data/gin.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4787
+    },
+    {
+      "name": "gmb",
+      "path": "data/gmb.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2442
+    },
+    {
+      "name": "gnb",
+      "path": "data/gnb.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2621
+    },
+    {
+      "name": "gnq",
+      "path": "data/gnq.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2097
+    },
+    {
+      "name": "grc",
+      "path": "data/grc.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4080
+    },
+    {
+      "name": "grl",
+      "path": "data/grl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5009
+    },
+    {
+      "name": "gtm",
+      "path": "data/gtm.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3322
+    },
+    {
+      "name": "guy",
+      "path": "data/guy.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3491
+    },
+    {
+      "name": "hnd",
+      "path": "data/hnd.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4304
+    },
+    {
+      "name": "hrv",
+      "path": "data/hrv.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3549
+    },
+    {
+      "name": "hti",
+      "path": "data/hti.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2652
+    },
+    {
+      "name": "hun",
+      "path": "data/hun.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3089
+    },
+    {
+      "name": "idn",
+      "path": "data/idn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 12973
+    },
+    {
+      "name": "ind",
+      "path": "data/ind.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 7653
+    },
+    {
+      "name": "irl",
+      "path": "data/irl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2288
+    },
+    {
+      "name": "irn",
+      "path": "data/irn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4994
+    },
+    {
+      "name": "irq",
+      "path": "data/irq.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3014
+    },
+    {
+      "name": "isl",
+      "path": "data/isl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2624
+    },
+    {
+      "name": "isr",
+      "path": "data/isr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2725
+    },
+    {
+      "name": "ita",
+      "path": "data/ita.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5515
+    },
+    {
+      "name": "jam",
+      "path": "data/jam.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2212
+    },
+    {
+      "name": "jor",
+      "path": "data/jor.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2555
+    },
+    {
+      "name": "jpn",
+      "path": "data/jpn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4622
+    },
+    {
+      "name": "kaz",
+      "path": "data/kaz.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 6660
+    },
+    {
+      "name": "ken",
+      "path": "data/ken.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2724
+    },
+    {
+      "name": "kgz",
+      "path": "data/kgz.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3262
+    },
+    {
+      "name": "khm",
+      "path": "data/khm.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2489
+    },
+    {
+      "name": "kor",
+      "path": "data/kor.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2604
+    },
+    {
+      "name": "kos",
+      "path": "data/kos.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2327
+    },
+    {
+      "name": "kwt",
+      "path": "data/kwt.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2106
+    },
+    {
+      "name": "lao",
+      "path": "data/lao.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3387
+    },
+    {
+      "name": "lbn",
+      "path": "data/lbn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2203
+    },
+    {
+      "name": "lbr",
+      "path": "data/lbr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2876
+    },
+    {
+      "name": "lby",
+      "path": "data/lby.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3607
+    },
+    {
+      "name": "lka",
+      "path": "data/lka.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2178
+    },
+    {
+      "name": "lso",
+      "path": "data/lso.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2261
+    },
+    {
+      "name": "ltu",
+      "path": "data/ltu.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2582
+    },
+    {
+      "name": "lux",
+      "path": "data/lux.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2056
+    },
+    {
+      "name": "lva",
+      "path": "data/lva.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2687
+    },
+    {
+      "name": "mar",
+      "path": "data/mar.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4560
+    },
+    {
+      "name": "mda",
+      "path": "data/mda.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2910
+    },
+    {
+      "name": "mdg",
+      "path": "data/mdg.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3944
+    },
+    {
+      "name": "mex",
+      "path": "data/mex.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 8927
+    },
+    {
+      "name": "mkd",
+      "path": "data/mkd.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2365
+    },
+    {
+      "name": "mli",
+      "path": "data/mli.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5022
+    },
+    {
+      "name": "mmr",
+      "path": "data/mmr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4805
+    },
+    {
+      "name": "mne",
+      "path": "data/mne.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2255
+    },
+    {
+      "name": "mng",
+      "path": "data/mng.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5039
+    },
+    {
+      "name": "moz",
+      "path": "data/moz.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5172
+    },
+    {
+      "name": "mrt",
+      "path": "data/mrt.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3490
+    },
+    {
+      "name": "mwi",
+      "path": "data/mwi.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2958
+    },
+    {
+      "name": "mys",
+      "path": "data/mys.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4454
+    },
+    {
+      "name": "nam",
+      "path": "data/nam.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3696
+    },
+    {
+      "name": "ncl",
+      "path": "data/ncl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2363
+    },
+    {
+      "name": "ner",
+      "path": "data/ner.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4207
+    },
+    {
+      "name": "nga",
+      "path": "data/nga.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4220
+    },
+    {
+      "name": "nic",
+      "path": "data/nic.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4084
+    },
+    {
+      "name": "nld",
+      "path": "data/nld.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2361
+    },
+    {
+      "name": "nor",
+      "path": "data/nor.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5082
+    },
+    {
+      "name": "npl",
+      "path": "data/npl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2683
+    },
+    {
+      "name": "nzl",
+      "path": "data/nzl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4797
+    },
+    {
+      "name": "omn",
+      "path": "data/omn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3775
+    },
+    {
+      "name": "pak",
+      "path": "data/pak.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4622
+    },
+    {
+      "name": "pan",
+      "path": "data/pan.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4005
+    },
+    {
+      "name": "per",
+      "path": "data/per.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5142
+    },
+    {
+      "name": "phl",
+      "path": "data/phl.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 6708
+    },
+    {
+      "name": "png",
+      "path": "data/png.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5473
+    },
+    {
+      "name": "pol",
+      "path": "data/pol.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3693
+    },
+    {
+      "name": "pri",
+      "path": "data/pri.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2205
+    },
+    {
+      "name": "prk",
+      "path": "data/prk.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3699
+    },
+    {
+      "name": "prt",
+      "path": "data/prt.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3184
+    },
+    {
+      "name": "pry",
+      "path": "data/pry.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3262
+    },
+    {
+      "name": "pse",
+      "path": "data/pse.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2178
+    },
+    {
+      "name": "qat",
+      "path": "data/qat.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2098
+    },
+    {
+      "name": "rou",
+      "path": "data/rou.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3651
+    },
+    {
+      "name": "rus",
+      "path": "data/rus.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 23521
+    },
+    {
+      "name": "rwa",
+      "path": "data/rwa.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2281
+    },
+    {
+      "name": "sau",
+      "path": "data/sau.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5108
+    },
+    {
+      "name": "sdn",
+      "path": "data/sdn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4596
+    },
+    {
+      "name": "sen",
+      "path": "data/sen.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3703
+    },
+    {
+      "name": "slb",
+      "path": "data/slb.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3468
+    },
+    {
+      "name": "sle",
+      "path": "data/sle.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2727
+    },
+    {
+      "name": "slv",
+      "path": "data/slv.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2673
+    },
+    {
+      "name": "sol",
+      "path": "data/sol.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2776
+    },
+    {
+      "name": "som",
+      "path": "data/som.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2696
+    },
+    {
+      "name": "srb",
+      "path": "data/srb.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3366
+    },
+    {
+      "name": "ssd",
+      "path": "data/ssd.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4226
+    },
+    {
+      "name": "sur",
+      "path": "data/sur.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2880
+    },
+    {
+      "name": "svk",
+      "path": "data/svk.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3185
+    },
+    {
+      "name": "svn",
+      "path": "data/svn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2528
+    },
+    {
+      "name": "swe",
+      "path": "data/swe.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3467
+    },
+    {
+      "name": "swz",
+      "path": "data/swz.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2228
+    },
+    {
+      "name": "syr",
+      "path": "data/syr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2912
+    },
+    {
+      "name": "tcd",
+      "path": "data/tcd.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3900
+    },
+    {
+      "name": "tgo",
+      "path": "data/tgo.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2508
+    },
+    {
+      "name": "tha",
+      "path": "data/tha.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4557
+    },
+    {
+      "name": "tjk",
+      "path": "data/tjk.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3532
+    },
+    {
+      "name": "tkm",
+      "path": "data/tkm.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4115
+    },
+    {
+      "name": "tls",
+      "path": "data/tls.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2272
+    },
+    {
+      "name": "tto",
+      "path": "data/tto.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1998
+    },
+    {
+      "name": "tun",
+      "path": "data/tun.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3076
+    },
+    {
+      "name": "tur",
+      "path": "data/tur.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4666
+    },
+    {
+      "name": "twn",
+      "path": "data/twn.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2131
+    },
+    {
+      "name": "tza",
+      "path": "data/tza.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3324
+    },
+    {
+      "name": "uga",
+      "path": "data/uga.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2577
+    },
+    {
+      "name": "ukr",
+      "path": "data/ukr.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 6008
+    },
+    {
+      "name": "ury",
+      "path": "data/ury.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2712
+    },
+    {
+      "name": "usa",
+      "path": "data/usa.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 17962
+    },
+    {
+      "name": "uzb",
+      "path": "data/uzb.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4105
+    },
+    {
+      "name": "ven",
+      "path": "data/ven.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5856
+    },
+    {
+      "name": "vnm",
+      "path": "data/vnm.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3702
+    },
+    {
+      "name": "vut",
+      "path": "data/vut.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 2285
+    },
+    {
+      "name": "yem",
+      "path": "data/yem.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3640
+    },
+    {
+      "name": "zaf",
+      "path": "data/zaf.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5983
+    },
+    {
+      "name": "zmb",
+      "path": "data/zmb.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 4439
+    },
+    {
+      "name": "zwe",
+      "path": "data/zwe.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 3378
     }
   ],
   "bugs": {
