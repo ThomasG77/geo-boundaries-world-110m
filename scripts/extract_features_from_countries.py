@@ -8,7 +8,7 @@ logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 with fiona.open('shp/countries.shp', 'r') as source:
     # Copy the source schema and add two new properties.
     sink_schema = source.schema.copy()
-    
+
     # Open to write complete GeoJSON
     with fiona.open(
                 'countries.geojson', 'w',
@@ -80,7 +80,7 @@ The provided data are based on the GeoJSON, a text based format for geospatial m
 
 You can find in the directory:
 
-* the `countries.geojson` using the GeoJSON, 
+* the `countries.geojson` using the GeoJSON,
 * a list of GeoJSON files we created for each countries.
 
 In this case, the adopted naming convention is to use the attribute `iso_a3` to name the file.
@@ -96,7 +96,7 @@ The `data` directory contains also a `shp` folder and the folder name is already
 
 The Shapefile (also written SHP) is a "de-facto" standard for the geospatial industry.
 
-Speaking about SHP in fact a shortcut because SHP require more than one file to work correctly.
+Speaking about SHP, it's in fact a shortcut because SHP require more than one file to work correctly.
 You will have `countries.shp`, `countries.dbf`, `countries.shx` and `countries.prj`. Moreover, we also kept original html description and history in the file `countries.README.html` and a `countries.VERSION.txt` to keep track of the original dataset changes.
 
 To finish, like for GeoJSON, a SHP for each country following the same naming conventions is available.
